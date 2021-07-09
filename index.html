@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teamm.css">
+    <!-- <link rel="stylesheet" href="css/mobileteam.css"> -->
+    <link rel="stylesheet" href="stylem.css">
+      <link rel="stylesheet" href="Fteam.css">
+    <script src="team.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Teams</title>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <label class="logo">CricHero</label>
+        <ul>
+           
+            <li><a href="#">Players</a></li>
+            <li><a href="assoc.html">Association</a></li>
+            <li><a href="mymatchesteams.html">My Matches</a></li>
+            <li><a href="login.html">Register</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="pagenav">
+        <button class="btn active" onclick="showteams()" id="btnteams">
+            Teams
+        </button>
+        <button class="btn" onclick="showplayers()" id= "btnplayers">
+            Players
+        </button>
+    </div>
+    <div class="team" id="teams">
+        <div class="t-cont" id="t-1">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-1</strong></h3>
+                    <p>This is the short version of about section of Team-1...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-2">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-2</strong></h3>
+                    <p>This is the short version of about section of Team-2...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-3">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-3</strong></h3>
+                    <p>This is the short version of about section of Team-3...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-4">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-4</strong></h3>
+                    <p>This is the short version of about section of Team-4...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-5">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-5</strong></h3>
+                    <p>This is the short version of about section of Team-5...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-6">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-6</strong></h3>
+                    <p>This is the short version of about section of Team-6...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-7">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-7</strong></h3>
+                    <p>This is the short version of about section of Team-7...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-8">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-8</strong></h3>
+                    <p>This is the short version of about section of Team-8...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-9">
+            <a href="#">
+                <div class="cat-1"><img src="img/logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-9</strong></h3>
+                    <p>This is the short version of about section of Team-9...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-10">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-10</strong></h3>
+                    <p>This is the short version of about section of Team-10...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-11">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-11</strong></h3>
+                    <p>This is the short version of about section of Team-11...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-12">
+            <a href="#">
+                <div class="cat-1"><img src="logo.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Team-12</strong></h3>
+                    <p>This is the short version of about section of Team-12...</p>
+                    <span><strong>Captain : </strong> Captain Name</span><br>
+                    <span><strong>Vice Captain : </strong> Vice Captain name</span><br>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Matches Won : </strong>xx</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="team" id="players">
+        <div class="t-cont" id="t-1">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-1</strong></h3>
+                    <p>This is the short version of about section of Player-1...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-2">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-2</strong></h3>
+                    <p>This is the short version of about section of Player-2...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-3">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-3</strong></h3>
+                    <p>This is the short version of about section of Player-3...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-4">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-4</strong></h3>
+                    <p>This is the short version of about section of Player-4...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-5">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-5</strong></h3>
+                    <p>This is the short version of about section of Player-5...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-6">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-6</strong></h3>
+                    <p>This is the short version of about section of Player-6...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-7">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-7</strong></h3>
+                    <p>This is the short version of about section of Player-7...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-8">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-8</strong></h3>
+                    <p>This is the short version of about section of Player-8...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-9">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-9</strong></h3>
+                    <p>This is the short version of about section of Player-9...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-10">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-10</strong></h3>
+                    <p>This is the short version of about section of Player-10...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-11">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-11</strong></h3>
+                    <p>This is the short version of about section of Player-11...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+        <div class="t-cont" id="t-12">
+            <a href="#">
+                <div class="cat-1"><img src="player.jpg" alt=""></div>
+                <div class="cat-2">
+                    <h3><strong> Player-12</strong></h3>
+                    <p>This is the short version of about section of Player-12...</p>
+                    <span><strong>Matches Played : </strong>xx</span><br>
+                    <span><strong>Centuries : </strong> yy</span><br>
+                    <span><strong>Half Centuries : </strong> zz</span><br>
+                    <span><strong>Type : </strong>Bowler, Batsman, Wicket keeper, All Rounder</span>
+                </div>
+            </a>
+            <div class="players">
+                <button class="btn">
+                    Add to Cart
+                </button>
+                <button class="btn">
+                    Send Request
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer>
+             <div class="container">
+         <div class="main">
+            <h2>
+                CRIC HERO
+            </h2> 
+             <div class="copy">
+                 &copy;2021
+             </div>
+            </div>
+             <div id="com">
+                 <h2>
+                     COMPANY
+                 </h2>
+                 <ul>
+                     <li><a href="#">HOME</a></li>
+                     <li><a href="cricket tips1.html">
+                     TIPS</a>
+                     </li>
+                     <li><a href="cssrounded.html">STATE</a></li>
+                     <li><a href="contact.html">contact us</a></li>
+                 </ul>
+
+             </div>
+             <div id="cond">
+                 <h2>FUTHER INFO</h2>
+                 <ul>
+                     <li>
+                         term and condition
+                     </li>
+                     <li>privacy policy</li>
+                 </ul>
+             </div>
+
+             <div class="contact">
+                 <h2>
+                     CONTACT
+                 </h2>
+                 <div>
+                    <div class="media">
+                        <a href="https://www.linkedin.com/in/sumit-gadhwal-b43375209"><img src="fb (1).png" alt=""></a>
+                        <a href="https://www.instagram.com/sumitgadwal7/" class="insta"><img src="insta.png" alt=""></a>
+                        <a href="https://github.com/sumit423"><img src="gb.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/sumit-gadhwal-b43375209"><img src="in.png" alt=""></a>
+                        <a href="https://twitter.com/GADHWAL13"><img src="tw (1).png" alt=""></a>
+                    </div>
+                 </div>
+             </div>
+</div>
+        
+    </footer>
+</body>
+
+</html>
